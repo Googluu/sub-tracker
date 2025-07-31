@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Sub Tracker is running on port http://${PORT}`);
+    console.log(`Sub Tracker is running on port http://localhost:${PORT}`);
 });
 
 export default app;
